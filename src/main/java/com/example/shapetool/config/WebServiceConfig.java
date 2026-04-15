@@ -33,7 +33,7 @@ public class WebServiceConfig {
     // Load XSD
     @Bean
     public XsdSchema shapeSchema() {
-        return new SimpleXsdSchema(new ClassPathResource("xsd/shapetool.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("schemas/shapetool.xsd"));
     }
 
     // Auto-generate WSDL
