@@ -36,6 +36,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema shapesSchema() {
-        return new SimpleXsdSchema(new ClassPathResource("schemas/shapetool.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("shapes.xsd"));
     }
 }
